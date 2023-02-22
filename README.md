@@ -1,2 +1,2 @@
 # ThietThu.github.io
-Xin chao Son bede
+Kodi repo and addon
