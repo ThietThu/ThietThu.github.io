@@ -25,22 +25,19 @@
             alt="Thiết Thủ" />
     </div>
  
-    <button type="button"
-        onclick="show()" id="btnID">
-        Bấm để xem ảnh
+    <button onclick="show()">
+        Minh hoạ
     </button>
  <br>
     <script>
-        function show() {
- 
-            /* Access image by id and change
-            the display property to block*/
-            document.getElementById('image')
-                    .style.display = "block";
- 
-            document.getElementById('btnID')
-                    
-        }
+    function show() {
+  var x = document.getElementById("image");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
     </script>
 </p>
 </body>
